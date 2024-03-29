@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1
+{
+  text-align: center;
+}
+.header
+{
+  text-align: left;
+  font-size: 2rem;
+}
+
+span 
+{
+  color: orange;
+}
+
+h3 
+{
+  text-align: center;
+  font-size: 1rem;
+  margin: 10%;
+}
+
+@media only screen and (max-width: 480px) 
+{
+    .graph .chart
+    {
+      width: 100%;
+      height: 100%;
+    }
+
+    .BarChart
+    {
+      width: 100%;
+      height: 100%;
+    }
+}
